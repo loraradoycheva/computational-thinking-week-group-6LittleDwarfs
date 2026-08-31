@@ -1,7 +1,7 @@
 def give_bao():
     return "Huy Bao Nguyen"
 def char():
-    return "Edgar Allan Poe"
+    return "Gryla of the woods"
 
 def act1par3():
     return "Iets" 
