@@ -1,16 +1,16 @@
 import Bao
 import Tobit
-import hello_by_david
-import hello_by_lora
+import David
+import Lora
 import Rajko
 import Tarling
 
 def get_team_members():
     print("This is Team 6 Little Dwarfs. We are:")
-    print(Bao.get_name())
+    print(Bao.give_bao())
     print(Tobit.give_tobit())
-    print(hello_by_david.get_name())
-    print(hello_by_lora.get_name())
+    print(David.give_david())
+    print(Lora.give_lora())
     print(Rajko.give_rajko())
     print(Tarling.give_tarling())
 
