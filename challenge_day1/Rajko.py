@@ -2,7 +2,7 @@ def give_rajko():
     return "Rajko Scherpenzeel"
 
 def char():
-    return "Dovstoevsky"
+    return "Ieniemienie"
 
 def act1par1():
     return "Iets" 
