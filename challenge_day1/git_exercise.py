@@ -26,17 +26,17 @@ def get_story():
     # Act 2
     print(Rajko.act2par1())
     print(Tobit.act2par2())
-    print(Bao.act2par3())
-    print(Lora.act2par4())
-    print(David.act2par5())
+    print(David.act2par3())
+    print(Bao.act2par4())
+    print(Lora.act2par5())
     print(Tarling.act2par6())
 
     # Act 3
     print(Rajko.act3par1())
     print(Tobit.act3par2())
-    print(Bao.act3par3())
-    print(Lora.act3par4())
-    print(David.act3par5())
+    print(David.act3par3())
+    print(Bao.act3par4())
+    print(Lora.act3par5())
     print(Tarling.act3par6())
 
 if __name__ == "__main__":
