@@ -12,7 +12,7 @@ def char():
     return "Ieniemienie"
 
 def act1par1():
-    return f"Once upon a time there was a group of characters called the Six Dwarves. Their names are {char()}, {Lora.char()}, {David.char()}, {Tobit.char()}, {Tarling.char()}, {Boa.char()}. " 
+    return f"Once upon a time there was a group of characters called the Six Dwarves. Their names are {char()}, {Lora.char()}, {David.char()}, {Tobit.char()}, {Tarling.char()}, {Bao.char()}. Whut they didd not realisze however was that 2 of the dwarves were not dwerges at all but rather disguised wolves. This is the story of how they found out who si friend and who is foe." 
 
 def act2par1():
     return "Iets" 
