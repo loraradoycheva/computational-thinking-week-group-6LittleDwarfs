@@ -18,9 +18,9 @@ def get_story():
     # Act 1
     print(Rajko.act1par1())
     print(Tobit.act1par2())
-    print(David.act1par5())
-    print(Bao.act1par3())
-    print(Lora.act1par4())
+    print(David.act1par3())
+    print(Bao.act1par4())
+    print(Lora.act1par5())
     print(Tarling.act1par6())
 
     # Act 2
