@@ -14,4 +14,5 @@ def get_team_members():
     print(Rajko.give_rajko())
     print(Tarling.give_tarling())
 
-print(get_team_members())
+if __name__ == "__main__":
+    get_team_members()
