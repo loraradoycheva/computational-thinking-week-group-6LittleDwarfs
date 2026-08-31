@@ -1,5 +1,2 @@
-
-printer = True
-
-while printer:
-    print("Hello world")
+def get_name():
+    return "David Rahimi"
