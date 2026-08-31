@@ -1,2 +1,2 @@
-def give_Lora():
+def give_lora():
     return "Lora"
