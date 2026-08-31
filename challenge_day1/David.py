@@ -2,7 +2,7 @@ def give_david():
     return "David Rahimi"
 
 def char():
-    return "Kisvakond"
+    return "Vuk"
 
 def act1par5():
     return "Valami"
