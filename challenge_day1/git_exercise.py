@@ -35,7 +35,7 @@ def get_story():
     print(Rajko.act3par1())
     print(Tobit.act3par2())
     print(Bao.act3par3())
-    print(Lora.ac31par4())
+    print(Lora.act3par4())
     print(David.act3par5())
     print(Tarling.act3par6())
 
