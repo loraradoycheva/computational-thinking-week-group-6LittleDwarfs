@@ -1,2 +1,2 @@
-def get_name():
+def give_david():
     return "David Rahimi"
