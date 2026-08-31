@@ -1,3 +1,10 @@
+import Bao
+import Tobit
+import David
+import Lora
+import Rajko
+import Tarling
+
 def give_rajko():
     return "Rajko Scherpenzeel"
 
@@ -5,7 +12,7 @@ def char():
     return "Ieniemienie"
 
 def act1par1():
-    return f"dit is {char()}" 
+    return f"Once upon a time there was a group of characters called the Six Dwarves. Their names are {char()}, {Lora.char()}, {David.char()}, {Tobit.char()}, {Tarling.char()}, {Boa.char()}. " 
 
 def act2par1():
     return "Iets" 
