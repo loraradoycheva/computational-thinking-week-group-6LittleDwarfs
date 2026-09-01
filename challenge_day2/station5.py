@@ -80,7 +80,7 @@ students_lt = {
     "Tom":4,
 }
 
-def solution_station5(name):
+def solution_station_5(name):
     if name in students_lt:
         return students_lt[name]
     else:

@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.polynomial import Polynomial
 import math
-def solution_station6(input):
+def solution_station_6(input):
 # [0 ,0],
 # [0.1, 0.0998],
 # [0.2, 0.1987],

@@ -1,4 +1,4 @@
-def solution_station1(index):
+def solution_station_1(index):
     if index == 0:
         return 0
     elif index == 1:
