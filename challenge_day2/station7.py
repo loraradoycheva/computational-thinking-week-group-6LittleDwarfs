@@ -1,4 +1,5 @@
-def solution_station_7(variables : list[str], operators : list[str]) -> int:
+def solution_station_7(input) -> int:
+    variables, operators = input
     converted_vars = []
     a = 3
     b = -1
