@@ -18,4 +18,4 @@ def act2par2():
     return f"Alll of the suldden {Lora.char()} woke up. Alround them stood {Bao.char()}, {Rajko.char()}, {David.char()}, {Tobit.char()} and {Tarling.char()}. {Lora.char()} asked: 'What happened? Did I dream all of this?' To which {Bao.char()} answered: 'We were on our hike through the mountains and all of the sudden you collapes. Are you fine?' To which {Lora.char()} replied: 'So I did dream all of this nonsense. I think I am lcompletely fine. Let's take a rest andlthen get going again.'\n" 
 
 def act3par2():
-    return "Valami" 
+    return f"A lffittle while later, {Bao.char()}, {Lora.char()}, {Rajko.char()}, {David.char()}, {Tobit.char()} and {Tarling.char()} sat around a campfffire. Reminiscing about thffe good old times, drinking too much beer, wine and whatever else exists.\n" 
