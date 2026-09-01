@@ -6,8 +6,3 @@ def solution_station2(d):
     if isinstance(d, str):
         d = datetime.strptime(d, "%Y-%m-%d").date()
     return DAYS_JA[d.weekday()]
-
-
-if __name__ == "__main__":
-    user_date = input("Enter a date (YYYY-MM-DD): ")
-    print(solution_station2(user_date))
