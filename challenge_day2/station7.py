@@ -49,7 +49,6 @@ def solution_station_7(input):
                 next_op = operators[counter]
                 
             else:
-                print(next_op)
                 match next_op:
                     case "*":
                         calculation *= var
@@ -74,3 +73,5 @@ def solution_station_7(input):
         final += x
     
     return final
+
+print(solution_station_7("a+b"))
