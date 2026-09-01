@@ -73,5 +73,3 @@ def solution_station_7(input):
         final += x
     
     return final
-
-print(solution_station_7("a+b"))
