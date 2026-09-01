@@ -72,4 +72,4 @@ def solution_station_7(input):
     for x in solution:
         final += x
     
-    return final
+    return float(final)
