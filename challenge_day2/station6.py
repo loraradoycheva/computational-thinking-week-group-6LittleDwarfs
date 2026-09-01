@@ -1,13 +1,23 @@
 import numpy as np
 from numpy.polynomial import Polynomial
-
+import math
 def solution_station6(input):
-
-    x = np.array([0.6, 0.3, 2.8, 1.7, 1.4, 2.5, 2.2, 0, 2.6, 2.4, 2.9])
-    y = np.array([0.5646, 0.2955, 0.335, 0.9917, 0.9854, 0.5985, 0.8085, 0, 0.5155, 0.6755, 0.2392])
-    p = Polynomial.fit(x, y, deg=len(x)-1)
-    print(p.convert()) 
-    print(p(input))
+# [0 ,0],
+# [0.1, 0.0998],
+# [0.2, 0.1987],
+# [0.7, 0.6442],
+# [0.8, 0.7174],
+# [1, 0.8415],
+# [1.2, 0.932],
+# [1.3, 0.9636],
+# [1.4, 0.9854],
+# [1.6, 0.9996],
+# [2, 0,9093],
+# [2.1, 0.8632],
+# [2.5, 0.5985],
+# [2.7, 0.4274],
+# [2.9, 0.2392]
+    return math.sin(input)
 
 if __name__ == "__main__":
-    solution_station6(0.7)
+    print(solution_station6(0.7))
