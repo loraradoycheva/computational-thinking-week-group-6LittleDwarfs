@@ -80,5 +80,11 @@ students_lt = {
     "Tom":4,
 }
 
+def solution_station5(name):
+    if name in students_lt:
+        return students_lt[name]
+    else:
+        return "Student not found"
 
-def solution_station5():
+name = input("Enter student's name: ")
+print(solution_station5(name))
