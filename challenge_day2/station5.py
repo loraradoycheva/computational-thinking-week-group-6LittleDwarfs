@@ -85,6 +85,3 @@ def solution_station_5(name):
         return students_lt[name]
     else:
         return "Student not found"
-
-name = input("Enter student's name: ")
-print(solution_station5(name))
