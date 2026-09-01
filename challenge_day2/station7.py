@@ -1,5 +1,15 @@
-def solution_station_7(input) -> int:
-    variables, operators = input
+def solution_station_7(input):
+    variables = []
+    operators = []
+    temp = 0
+    for char in input:
+        if temp == 0:
+            variables.append(char)
+            temp = 1
+        elif temp == 1:
+            operators.append(char)
+            temp = 0
+        
     converted_vars = []
     a = 3
     b = -1
@@ -64,4 +74,3 @@ def solution_station_7(input) -> int:
         final += x
     
     return final
-
