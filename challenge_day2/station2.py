@@ -7,5 +7,7 @@ def solution_station2(d):
         d = datetime.strptime(d, "%Y-%m-%d").date()
     return DAYS_JA[d.weekday()]
 
-print(solution_station2("2024-10-12"))   
-print(solution_station2(date.today()))
+
+if __name__ == "__main__":
+    user_date = input("Enter a date (YYYY-MM-DD): ")
+    print(solution_station2(user_date))
